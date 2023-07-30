@@ -9,24 +9,43 @@ html, body {
     margin: 0;
     padding: 0;
 }
+.top-header {
+    background-color: #282828;
+}
+
+.menu-item {
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.brand {
+    font-size: 18px;
+    font-weight: 600;
+}
 
 .main-content {
     max-width: 700px;
     margin: auto;
 }
 
-header {
-    padding: 20px;
-    background-color: #282828;
-    color: #fff;
+.main-content-inline {
+    display: inline-block;
 }
 
 .box {
     background-color: #fff;
     padding: 20px;
     border-radius: 12px;
-    margin: 30px;
+    margin: 10px;
+}
 
+.logo-item {
+    width: 80px;
+    padding: 10px;
+    border-radius: 100%;
+    display: block;
 }
 
 .image {
@@ -41,5 +60,16 @@ header {
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
+}
 
+.button-footer {
+    background-color: #282828;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.center {
+    display: block;
+    text-align: -webkit-center;
 }
